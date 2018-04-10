@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="hotel-manager.css">
+        <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Playfair+Display+SC" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <div id="popup">
+            
+            <div id="reservation-form-popup">
+                <div id="form-container">
+                    <div id="upper-part-form">
+                        <div id="form-title">Fill This Form To Add A New Reservation</div>
+                        <button id="abort-button">x</button>
+                    </div>
+                    
+                    <div>
+                        <form>
+                            <div class="form-item"><p>First Name : </p><input id="first-name" type="text"></div>
+                            <div class="form-item"><p>Last Name : </p><input id="last-name" type="text"></div>
+                            <div class="form-item"><p>Check-In Date : </p><input id="check-in" type="date"></div>
+                            <div class="form-item"><p>Check-Out date : </p><input id="check-out" type="date"></div>
+                            <div class="form-item"><p>Wich type of Room : </p><select id="typeofroom">
+                                <option>Basic Room</option>
+                                <option>Standard Room</option>
+                                <option>Excellent Room</option>
+                                <option>The Master Room</option>
+                                </select></div>
+                            <div class="form-item"><p>How Many Person : <select id="numberofpersons">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                </select></p></div>
+                            <div class="form-item"><p>Any dog ? : <input type="checkbox"></p></div>
+                        </form>
+                    </div>
+                    <div class="form-item"><button id="formSended" value="Submit">Submit</button></div>
+                </div>
+            </div>
+        
+        </div>
+        
+        <div id="html-content">
+            
+            <header id="main-header">
+                <div id="logo"></div>
+                <div id="title">HOTEL MANAGER</div>
+            </header>
+
+            <section id="main-section">
+
+                <button id="add-reservation-button">Add A New Reservation</button>
+
+
+
+                <div id=table-container>
+                     <table id="client-list">
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                             <th>Check-In Date</th>
+                             <th>Check-Out Date</th>
+                             <th>Type Of Room</th>
+                             <th>Number Of Guest</th>
+                             <th>Dog</th>
+                         </tr>
+                     </table>
+                </div>
+
+
+            </section>
+
+            <footer id="main-footer">
+            </footer>
+        
+        </div>
+
+        
+        
+
+        <script src="check-in-process.js"></script>
+    </body>
+</html>

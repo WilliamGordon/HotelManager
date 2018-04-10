@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#popup {
+    opacity: 1;
+}
+
+#reservation-form-popup {
+    display: none;
+}
+
+#form-container {
+    width: 500px;
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 170px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 2%;
+    background-color: lightblue;
+    z-index: 2;
+}
+
+#upper-part-form {
+    display: flex;
+    justify-content: space-around;
+}
+
+#form-title {
+    margin-top: 10px;
+    color: ;
+    text-align: center;
+    font-size: 25px
+}
+
+#abort-button {
+    height: 17;
+    width: 17;
+    position: relative;
+    left: 19px;
+    margin-top: 5px;
+    border-radius: 50%;
+    background-color: gray;
+    border:none;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 9;
+    font-weight: bold;
+}
+
+.form-item {
+    margin: 10px;
+    width: 270;
+}
+
+#html-content {
+    opacity: 1;
+    z-index: 1;
+}
+
+#main-header {
+    width: 100%;
+    height: 100px;
+    background-color: #37517E;
+    display: flex;
+}
+
+#title {
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 100px;
+    color:white;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Playfair Display SC', serif;
+}
+
+#main-section {
+    width: 100%;
+    height: 900px;
+    background-color: white;
+}
+
+table {
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+    width: 100;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#main-footer {
+    width: 100%;
+    height: 150px;
+    background-color: #37517E;
+}
+
