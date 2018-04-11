@@ -1,7 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="hotel-manager.css">
-        <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Playfair+Display+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abel|Playfair+Display+SC|Roboto|Titillium+Web" rel="stylesheet">
     </head>
     
     <body>
@@ -17,23 +17,23 @@
                     
                     <div>
                         <form>
-                            <div class="form-item"><p>First Name : </p><input id="first-name" type="text"></div>
-                            <div class="form-item"><p>Last Name : </p><input id="last-name" type="text"></div>
-                            <div class="form-item"><p>Check-In Date : </p><input id="check-in" type="date"></div>
-                            <div class="form-item"><p>Check-Out date : </p><input id="check-out" type="date"></div>
-                            <div class="form-item"><p>Wich type of Room : </p><select id="typeofroom">
+                            <div class="form-item"><p class="form-item-title">First Name : </p><input id="first-name" type="text"></div>
+                            <div class="form-item"><p  class="form-item-title">Last Name : </p><input id="last-name" type="text"></div>
+                            <div class="form-item"><p  class="form-item-title">Check-In Date : </p><input id="check-in" type="date"></div>
+                            <div class="form-item"><p  class="form-item-title">Check-Out date : </p><input id="check-out" type="date"></div>
+                            <div class="form-item"><p  class="form-item-title">Wich type of Room : </p><select id="typeofroom">
                                 <option>Basic Room</option>
                                 <option>Standard Room</option>
                                 <option>Excellent Room</option>
                                 <option>The Master Room</option>
                                 </select></div>
-                            <div class="form-item"><p>How Many Person : <select id="numberofpersons">
+                            <div class="form-item"><p  class="form-item-title">How Many Person : <select id="numberofpersons">
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
                                 <option>4</option>
                                 </select></p></div>
-                            <div class="form-item"><p>Any dog ? : <input type="checkbox"></p></div>
+                            <div class="form-item"><p  class="form-item-title">Any dog ? : <input type="checkbox"></p></div>
                         </form>
                     </div>
                     <div class="form-item"><button id="formSended" value="Submit">Submit</button></div>
@@ -50,10 +50,7 @@
             </header>
 
             <section id="main-section">
-
                 <button id="add-reservation-button">Add A New Reservation</button>
-
-                <p>test</p>
 
                 <div id=table-container>
                      <table id="client-list">
@@ -68,8 +65,6 @@
                          </tr>
                      </table>
                 </div>
-
-
             </section>
 
             <footer id="main-footer">
