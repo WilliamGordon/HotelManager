@@ -1,20 +1,18 @@
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="hotel-manager.css">
+        <link rel="stylesheet" type="text/css" href="main-style-hotel-manager.css">
+        <link rel="stylesheet" type="text/css" href="managing-booking-style.css">
         <link href="https://fonts.googleapis.com/css?family=Abel|Playfair+Display+SC|Roboto|Titillium+Web" rel="stylesheet">
     </head>
     
     <body>
-        
         <div id="popup">
-            
             <div id="reservation-form-popup">
                 <div id="form-container">
                     <div id="upper-part-form">
                         <div id="form-title">Fill This Form To Add A New Reservation</div>
                         <button id="abort-button">x</button>
                     </div>
-                    
                     <div>
                         <form>
                             <div class="form-item"><p class="form-item-title">First Name : </p><input id="first-name" type="text"></div>
@@ -39,19 +37,25 @@
                     <div class="form-item"><button id="formSended" value="Submit">Submit</button></div>
                 </div>
             </div>
-        
         </div>
-        
         <div id="html-content">
-            
             <header id="main-header">
-                <div id="logo"></div>
-                <div id="title">HOTEL MANAGER</div>
+                <div id="header-presentation">
+                    <div id="logo"></div>
+                    <div id="title">HOTEL MANAGER</div>
+                </div>
+                <div id="navigation-menu">
+                    <a class="nav-item" href="managing-client.html">Managing Clients</a>
+                    <a class="nav-item" id="manage-bookings" href="managing-bookings.html">Managing Bookings</a>
+                    <a class="nav-item" href="managing-rooms.html">Managing Rooms</a>
+                    <a class="nav-item" href="managing-stocks.html">Managing Stocks</a>
+                    <a class="nav-item" href="managing-staff.html">Managing Staff</a>
+                    <a class="nav-item" href="accounting.html">Accounting</a>
+                </div>
             </header>
 
             <section id="main-section">
                 <button id="add-reservation-button">Add A New Reservation</button>
-
                 <div id=table-container>
                      <table id="client-list">
                         <tr>
@@ -71,10 +75,6 @@
             </footer>
         
         </div>
-
-        
-        
-
         <script src="check-in-process.js"></script>
     </body>
 </html>
