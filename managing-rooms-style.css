@@ -7,6 +7,50 @@
     height: 900px;
     background-color: white;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+}
+
+#side-bar {
+    height: 300px;
+    width: 350px;
+    border: 1px solid #37517E;
+    border-radius: 5px;
+    margin: 10px;
+    padding-top: 8px;
+}
+
+#add-room-button {
+    width: 250px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    background-color: #334C76;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 15;
+    border-radius: 5px; 
+}
+
+#add-reservation-button:hover {
+    background-color: #37517E;
+    opacity: 0.9;
+}
+
+#content-div {
+    height: 100%;
+    width: 100%;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center; 
+}
+
+#booking-list {
+    border: 2px solid #37517E;
+}
+
+th {
+    border: 2px solid #37517E;
+    width: 150;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }

@@ -6,6 +6,41 @@
     </head>
     
     <body>
+        
+        <div id="popup">
+            <div id="reservation-form-popup">
+                <div id="form-container">
+                    <div id="upper-part-form">
+                        <div id="form-title">Fill This Form To Add A New Reservation</div>
+                        <button id="abort-button">x</button>
+                    </div>
+                    <div>
+                        <form>
+                            <div class="form-item"><p class="form-item-title">First Name : </p><input id="first-name" type="text"></div>
+                            <div class="form-item"><p  class="form-item-title">Last Name : </p><input id="last-name" type="text"></div>
+                            <div class="form-item"><p  class="form-item-title">Check-In Date : </p><input id="check-in" type="date"></div>
+                            <div class="form-item"><p  class="form-item-title">Check-Out date : </p><input id="check-out" type="date"></div>
+                            <div class="form-item"><p  class="form-item-title">Wich type of Room : </p><select id="typeofroom">
+                                <option>Basic Room</option>
+                                <option>Standard Room</option>
+                                <option>Excellent Room</option>
+                                <option>The Master Room</option>
+                                </select></div>
+                            <div class="form-item"><p  class="form-item-title">How Many Person : <select id="numberofpersons">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                </select></p></div>
+                            <div class="form-item"><p  class="form-item-title">Any dog ? : <input type="checkbox"></p></div>
+                        </form>
+                    </div>
+                    <div class="form-item"><button id="formSended" value="Submit">Submit</button></div>
+                </div>
+            </div>
+        </div>
+        
+        
         <div id="html-content">
             <header id="main-header">
                 <div id="header-presentation">
@@ -24,7 +59,25 @@
                 </div>
             </header>
 
-            <section id="main-section">  
+            <section id="main-section"> 
+                
+                <div id="side-bar">
+                    <button id="add-reservation-button">Add A New Client</button>
+                </div>
+                
+                <div id="content-div">
+                    <div id=table-container>
+                        <table id="booking-list">
+                            <tr>
+                                <th>ID</th>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Credit Card</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                
             </section>
 
             <footer id="main-footer">
